@@ -1,0 +1,102 @@
+.commitment__container{
+    max-width: 1110px;
+    margin-top: 185px;
+    margin-left: 210px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.commitment__block{
+    max-width: 540px;
+}
+.commitment__title{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    color: #333D4B;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 49px;
+}
+.commitment__text{
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:#333D4B;
+}
+//responsive
+
+@media screen and (max-width:1240px) {
+    .commitment__container{
+        margin-left: 75px;
+    }
+}
+@media screen and (max-width:1110px) {
+    .commitment__container{
+        margin-left: 30px;
+    }
+    .commitment__block{
+        max-width: 480px;
+    }
+}
+@media screen and (max-width:1010px) {
+    .commitment__container{
+        margin-left: 15px;
+    }
+    .commitment__block{
+        max-width: 440px;
+    }
+}
+@media screen and (max-width:960px) {
+    .commitment__block{
+        max-width: 400px;
+    }
+    .commitment__img{
+        max-width: 300px;
+        height: 470px;
+    }
+}
+@media screen and (max-width:768px) {
+    .commitment__img{
+        max-width: 280px;
+        height: 470px;
+    }
+    .commitment__block{
+        max-width: 339px;
+    }
+    .commitment__title{
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .commitment__text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+@media screen and (max-width:690px) {
+    .commitment__container{
+        flex-direction: column;
+    }
+    .commitment__block{
+        max-width: 500px;
+        text-align: center;
+    }
+    .commitment__img{
+        margin-top: -30px;
+        max-width: 327px;
+        height: 400px;
+        margin-bottom: 48px;
+    }
+    .commitment__title{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:375px) {
+    .commitment__img{
+        max-width: 287px;
+        height: 370px;
+    }
+    .commitment__block{
+        max-width: 287px;
+    }
+}
